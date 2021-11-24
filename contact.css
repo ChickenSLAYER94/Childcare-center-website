@@ -1,0 +1,90 @@
+#container {
+  padding-top: 10rem;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+}
+
+#main {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* header style starts */
+#login-dp {
+  width: 70%;
+  padding: 5rem;
+  margin: 4rem auto;
+  background-color: white;
+  border-radius: 1rem;
+}
+#login-con {
+  width: 70%;
+  margin: 0 auto;
+  padding: 5rem;
+  box-shadow: 2px 2px 5px 2px #eeecf1;
+  border-radius: 0.5rem;
+}
+#login-dp .forgot-password {
+  font-size: 14px;
+  padding-top: 0.5rem;
+}
+
+#login-dp .form-input {
+  margin-bottom: 15px;
+}
+#login-dp .btn-primary,
+#login-dp .btn {
+  background-color: #ff968a;
+  border: none;
+}
+.collapse .text-dark {
+  font-weight: bold;
+}
+.container-fluid .name {
+  color: #ff968a;
+  font-style: italic;
+}
+.bg-danger {
+  background-color: black;
+}
+.container .daily {
+  text-align: right;
+  padding: 5rem 0 0 0;
+  font-size: 2rem;
+}
+.text {
+  text-align: right;
+  padding: 2rem;
+  width: fit-content;
+  height: fit-content;
+}
+.learn {
+  background-color: #c6dbda;
+  padding: 1rem;
+  border-radius: 4px;
+  float: right;
+  color: white;
+  font-size: 1.1rem;
+}
+.container .daily-img {
+  width: 20%;
+  float: right;
+}
+
+@media (max-width: 968px) {
+  #login-dp {
+    width: 90%;
+    padding: 3rem 1rem;
+  }
+  #login-con {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+/* header style ends */
